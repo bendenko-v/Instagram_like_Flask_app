@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+    <div class="center">
+        <a href="{{ url_for('index') }}">
+            <img src="{{ url_for('static', filename='img/logo.png') }}" alt="to the Main page">
+        </a>
+        <div class="horizontal">
+            <div class="views"><p class="search_text">SEARCH</p></div>
+            <div class="item">
+                <form action="/" class="search__form" method="GET">
+                    <label><input type="search" class="search__input" name="s"></label>
+                </form>
+            </div>
+            <div class="views">
+                <a href="{{ url_for('favorites') }}">
+                    <img src="{{ url_for('static', filename='img/bookmark.png') }}" height="24" width="24">
+                </a>
+            </div>
+            <div class="bookmarks_count"><strong>{{ count_marks }}</strong></div>
+        </div>
+        {% if is_search == True %}
+            <div class="center" style="margin-bottom: 20px">Found {{ posts|length }} post(s)!</div>
+        {% endif %}
+        <div class="flex-container">
+            {%- for post in posts %}
+                <div class="flex-item">
+                    <div class="horizontal">
+                        <div class="avatar">
+                            <img class="img_ava" src="{{ post.avatar }}" height="40" width="40">
+                        </div>
+                        <div class="item">
+                            <a href="{{ url_for('user_page', user_name=post['author']) }}" class="btn-author">
+                                <strong>{{ post["author"] }}</strong>
+                            </a>
+                        </div>
+                        <div class="date">{{ post["date"] }}</div>
+                    </div>
+                    <a href="{{ url_for('post_page', pk=post['pk']) }}" class="btn-more"><img
+                            src="{{ url_for('get_image_link', filename=post.image) }}" alt=""></a>
+                    <div class="horizontal">
+                        <div class="item heart">
+                            <img src="{{ url_for('static', filename='img/heart.png') }}" alt="heart">
+                        </div>
+                        <div class="item likes"><strong>{{ post.likes_count }}</strong></div>
+                        <div class="views">
+                            <img src="{{ url_for('static', filename='img/eye.png') }}" height="24" width="24">
+                        </div>
+                        <div class="views"><strong>{{ post.views_count }}</strong></div>
+                        {% include "layout_bookmarks.html" %}
+                    </div>
+                    <div class="item"><p>{{ post["content"][:80]|safe }} ...</p></div>
+                    <div class="item">
+                        <a href="{{ url_for('post_page', pk=post['pk']) }}" class="btn-more">Подробнее</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

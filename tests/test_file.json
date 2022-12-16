@@ -1,0 +1,12 @@
+[
+    {
+        "pk": 1,
+        "author": "Name",
+        "avatar": "https://i.pravatar.cc/94?img=11",
+        "image": "some_image.jpg",
+        "content": "some text",
+        "date": "16-11-2022",
+        "views_count": 10,
+        "likes_count": 3
+    }
+]

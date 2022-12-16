@@ -1,0 +1,62 @@
+[
+    {
+        "pk": 1,
+        "author": "Sasha",
+        "avatar": "https://i.pravatar.cc/94?img=11",
+        "image": "img_1.jpg",
+        "content": "Lake Skadar is one of the most beautiful places in Montenegro. It is the largest #lake in Montenegro and the Balkan peninsula. #monte #happiness",
+        "date": "16-11-2022",
+        "views_count": 61,
+        "likes_count": 4
+    },
+    {
+        "pk": 2,
+        "author": "Boris",
+        "avatar": "https://i.pravatar.cc/94?img=8",
+        "image": "img_2.jpg",
+        "content": "Kotor is a fortified #town on Montenegro’s Adriatic coast, in a bay near the limestone cliffs of Mt. Lovćen. Characterized by winding streets and squares, its medieval old town has several Romanesque churches, including Kotor Cathedral.",
+        "date": "15-11-2022",
+        "views_count": 38,
+        "likes_count": 7
+    },
+    {
+        "pk": 3,
+        "author": "Vika",
+        "avatar": "https://i.pravatar.cc/94?img=39",
+        "image": "img_3.jpg",
+        "content": "Sveti Stefan is a #town in Budva Municipality, on the Adriatic coast of Montenegro, approximately 6 kilometres southeast of Budva. The town is known for the Aman Sveti Stefan resort, a 5-star franchise of the international group of Aman Resorts. #monte",
+        "date": "14-11-2022",
+        "views_count": 39,
+        "likes_count": 11
+    },
+    {
+        "pk": 4,
+        "author": "Sasha",
+        "avatar": "https://i.pravatar.cc/94?img=11",
+        "image": "img_4.jpg",
+        "content": "The city of Herceg Novi itself is located in the luxurious Bay of Kotor (about 7 kilometers from the beginning of the bay, which extends much further). The city spreads beautifully on the hills, which made it possible to create an amazing combination of various stairs, passages and fortress walls.",
+        "date": "14-11-2022",
+        "views_count": 35,
+        "likes_count": 6
+    },
+    {
+        "pk": 5,
+        "author": "Vika",
+        "avatar": "https://i.pravatar.cc/94?img=39",
+        "image": "img_5.jpg",
+        "content": "Podgorica is the capital city of Montenegro. Its rivers and bridges include the modern Millennium Bridge over the Morača River, and the stone bridge spanning the Ribnica River. The centuries-old Clock Tower, built by the Turks, dominates the old town. In the Zeta-Skadar valley south of the city, Lake Skadar National Park is home to medieval monasteries, beaches, and birds like the Dalmatian pelican. #monte #lake",
+        "date": "13-11-2022",
+        "views_count": 39,
+        "likes_count": 8
+    },
+    {
+        "pk": 6,
+        "author": "Boris",
+        "avatar": "https://i.pravatar.cc/94?img=8",
+        "image": "img_6.jpg",
+        "content": "Look what a beauty! What could be better than a trip to the mountains? #mountains #happiness",
+        "date": "12-11-2022",
+        "views_count": 47,
+        "likes_count": 3
+    }
+]

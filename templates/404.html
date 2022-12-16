@@ -1,0 +1,10 @@
+{% extends "layout_404.html" %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+<div class="center">
+    <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='img/logo.png') }}" alt="logo"></a>
+</div>
+<div class="center error_center">
+    <img src="{{ url_for('static', filename='img/404.gif') }}">
+</div>
+{% endblock %}

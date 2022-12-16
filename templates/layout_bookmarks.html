@@ -1,0 +1,13 @@
+<div class="bookmark">
+    {% for mark in bookmarks if mark['pk'] == post['pk'] %}
+        {% if mark['bookmark'] %}
+            <a href="{{ url_for('remove_bookmark', pk=post.pk) }}">
+                <img src="{{ url_for('static', filename='img/bookmark.png') }}" height="24" width="24">
+            </a>
+        {% else %}
+            <a href="{{ url_for('add_bookmark', pk=post.pk) }}">
+                <img src="{{ url_for('static', filename='img/unmarked.png') }}" height="24" width="24">
+            </a>
+        {% endif %}
+    {% endfor %}
+</div>

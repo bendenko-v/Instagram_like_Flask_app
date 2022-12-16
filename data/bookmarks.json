@@ -1,0 +1,26 @@
+[
+    {
+        "pk": 1,
+        "bookmark": false
+    },
+    {
+        "pk": 2,
+        "bookmark": false
+    },
+    {
+        "pk": 3,
+        "bookmark": true
+    },
+    {
+        "pk": 4,
+        "bookmark": true
+    },
+    {
+        "pk": 5,
+        "bookmark": false
+    },
+    {
+        "pk": 6,
+        "bookmark": true
+    }
+]

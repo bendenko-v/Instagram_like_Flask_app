@@ -1,0 +1,128 @@
+[
+    {
+        "post_id": 1,
+        "commenter_name": "hanna",
+        "content": "Очень здорово!",
+        "pk": 1
+    },
+    {
+        "post_id": 1,
+        "commenter_name": "jlia",
+        "content": ":)",
+        "pk": 2
+    },
+    {
+        "post_id": 1,
+        "commenter_name": "ralf",
+        "content": "Класс!",
+        "pk": 3
+    },
+    {
+        "post_id": 1,
+        "commenter_name": "leo",
+        "content": "Интересно. А где это?",
+        "pk": 4
+    },
+    {
+        "post_id": 2,
+        "commenter_name": "johnny",
+        "content": "Класс!",
+        "pk": 5
+    },
+    {
+        "post_id": 2,
+        "commenter_name": "hank",
+        "content": "Ухх !",
+        "pk": 6
+    },
+    {
+        "post_id": 2,
+        "commenter_name": "larry",
+        "content": "Завораживающее фото!",
+        "pk": 7
+    },
+    {
+        "post_id": 2,
+        "commenter_name": "leo",
+        "content": "Очень круто!",
+        "pk": 8
+    },
+    {
+        "post_id": 3,
+        "commenter_name": "johnny",
+        "content": "Выглядит WOW )",
+        "pk": 9
+    },
+    {
+        "post_id": 3,
+        "commenter_name": "hank",
+        "content": "Каждый раз захожу в ленту и от тебя что то классное!",
+        "pk": 10
+    },
+    {
+        "post_id": 3,
+        "commenter_name": "larry",
+        "content": "!!!",
+        "pk": 11
+    },
+    {
+        "post_id": 3,
+        "commenter_name": "leo",
+        "content": "Так так, продолжай)",
+        "pk": 12
+    },
+    {
+        "post_id": 4,
+        "commenter_name": "johnny",
+        "content": "Ухты!",
+        "pk": 13
+    },
+    {
+        "post_id": 4,
+        "commenter_name": "hank",
+        "content": "Норм )",
+        "pk": 14
+    },
+    {
+        "post_id": 4,
+        "commenter_name": "larry",
+        "content": "Оу!",
+        "pk": 15
+    },
+    {
+        "post_id": 4,
+        "commenter_name": "leo",
+        "content": "Интерсно...",
+        "pk": 16
+    },
+    {
+        "post_id": 5,
+        "commenter_name": "johnny",
+        "content": "Давно тебя тут не было, с возвращением!",
+        "pk": 17
+    },
+    {
+        "post_id": 5,
+        "commenter_name": "hank",
+        "content": "Ничего себе!",
+        "pk": 18
+    },
+    {
+        "post_id": 5,
+        "commenter_name": "larry",
+        "content": "Класс!",
+        "pk": 19
+    },
+    {
+        "post_id": 5,
+        "commenter_name": "hanna",
+        "content": "Очень необычная фоторафия! Где это?",
+        "pk": 20
+    },
+    {
+        "post_id": 3,
+        "commenter_name": "Vadim",
+        "content": "Очень круто!)",
+        "pk": 21
+    }
+]

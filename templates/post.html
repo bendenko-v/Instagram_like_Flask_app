@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+    <div class="center">
+        <a href="{{ url_for('index') }}">
+            <img src="{{ url_for('static', filename='img/logo.png') }}" alt="to the Main page">
+        </a>
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="horizontal">
+                    <div class="avatar"><img class="img_ava" src="{{ post.avatar }}" height="40" width="40"></div>
+                    <div class="item">
+                        <a href="{{ url_for('user_page', user_name=post['author']) }}"
+                           class="btn-author"><strong>{{ post["author"] }}</strong></a>
+                    </div>
+                    <div class="date">{{ post["date"] }}</div>
+                </div>
+                <img src="{{ url_for('get_image_link', filename=post.image) }}" alt="">
+                <div class="horizontal">
+                    <div class="item heart">
+                        <img src="{{ url_for('static', filename='img/heart.png') }}" alt="heart">
+                    </div>
+                    <div class="item likes"><strong>{{ post.likes_count }}</strong></div>
+                    <div class="views">
+                        <img src="{{ url_for('static', filename='img/eye.png') }}" height="24" width="24">
+                    </div>
+                    <div class="views"><strong>{{ post.views_count }}</strong></div>
+                    {% include "layout_bookmarks.html" %}
+                </div>
+                <div class="item"><p>{{ post["content"]|safe }}</p></div>
+                <div class="comments">
+                    <p><strong class="author">Comments:</strong></p>
+                    {% if comments|length > 0 %}
+                        {%- for comment in comments %}
+                            <p class="comment">
+                                <strong class="author">{{ comment["commenter_name"] }}</strong>:
+                                &nbsp;&nbsp;{{ comment["content"] }}</p>
+                        {% endfor %}
+                    {% else %}
+                        <p class="no_comment">There are no comments here yet!</p>
+                    {% endif %}
+                    <form action="{{ url_for('add_comment', pk=post.pk) }}" method="POST">
+                        <label>
+                            <textarea class="comment_form" name="new_comment"></textarea><br>
+                            <input class="center send" type="submit" value="Отправить">
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
