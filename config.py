@@ -1,5 +1,3 @@
-# Config file
-
 import os
 
 POSTS = os.path.join('data', 'posts.json')  # posts data

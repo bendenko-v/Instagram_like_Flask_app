@@ -124,5 +124,17 @@
         "commenter_name": "Vadim",
         "content": "Очень круто!)",
         "pk": 21
+    },
+    {
+        "post_id": 6,
+        "commenter_name": "Vadim",
+        "content": "Привет!",
+        "pk": 22
+    },
+    {
+        "post_id": 1,
+        "commenter_name": "Vadim",
+        "content": "Привет!",
+        "pk": 23
     }
 ]

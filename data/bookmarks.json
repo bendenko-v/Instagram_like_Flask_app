@@ -1,7 +1,7 @@
 [
     {
         "pk": 1,
-        "bookmark": false
+        "bookmark": true
     },
     {
         "pk": 2,
@@ -9,7 +9,7 @@
     },
     {
         "pk": 3,
-        "bookmark": true
+        "bookmark": false
     },
     {
         "pk": 4,
@@ -21,6 +21,6 @@
     },
     {
         "pk": 6,
-        "bookmark": true
+        "bookmark": false
     }
 ]
